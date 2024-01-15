@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Story App using JS and Apis</title>
+</head>
+<body>
+<!-- ----------------- Navbar ----------------   -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Stories</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://kiran2530.github.io/My-Portfolio/">About Me</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- ----------------- Navbar end ------------------- -->
+<!-- ----------------- news cards ------------------- -->
+<div class="story-container">
+  <div class="story-card">
+    <button id="listen-btn" value="listen"><b>listen Story </b></button>
+  </div>
+  <div class="story" id="story">
+    
+  </div>
+</div>
+<!-- ----------------- news cards end ---------------- -->
+
+<!-- ------------------ next Button ------------------ --> 
+  <div class="story-card">
+    <button id="next-btn"><b>Next Story</b></button>
+  </div>
+<!-- ----------------- next Button ------------------ --> 
+
+<!-- ----------------- footer section starts --------- -->
+<section class="footer">
+<div class="box-container">
+  <div class="box">
+    <h3>Why choose us?</h3>
+    <p>We keep raising our standards of quality, innovation, craftsmanship and customer service so we continue to earn the trust of every client we work with.</p>
+  </div>
+
+  <div class="box">
+    <h3>Quick links</h3>
+    <a href="#home">home</a>
+    <a href="https://kiran2530.github.io/My-Portfolio/">About Me</a>
+    <a href="#nav">Go Top</a>  
+  </div>
+  <div class="box">
+    <h3>Contact us</h3>
+    <p> <i class="fas fa-map-marker-alt"></i> Kolhapur, India 416208. </p>
+    <p> <i class="fa-solid fa-envelope"></i> nikamsarkar464@gmail.com </p>
+    <p> <i class="fas fa-phone"></i> +918975952690. </p>
+  </div>
+</div>
+
+<h1 class="credit"><p>Copyright &copy; 2023 by Kiran | All Rights Reserved.</p>
+    <p> This website was last edited on 16 Jan 2024 At 01:30 AM ( IST ) .</p></h1>
+</section>
+<!------------- footer section ends -------------->
+
+<!--------------------------------- Scripts --------------------------------->
+
+<!------------------ mdn script -------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- ------------ bootstrap script ------------  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- ---------------- my script ----------------  -->
+<script src="script.js"></script>
+</body>
+</html>
